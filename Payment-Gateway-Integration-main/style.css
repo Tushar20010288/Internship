@@ -1,0 +1,73 @@
+body{
+background-image: url(donate.jpg);
+ background-repeat: no-repeat;
+ height: 98vh;
+ background-attachment: fixed;
+ background-size:cover;
+}
+
+.logo{
+font-family: 'Patrick Hand', cursive;
+  font-size: 2.5 rem;
+  font-style: bold;
+  letter-spacing: 3px;
+}
+.abcd a{
+    padding: 15px;
+    border: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: bold;
+    color:#049DBF;
+    font-size:20px;
+}
+.abcd a:hover{
+text-decoration: none;
+color: #A2DBD9;
+}
+.don-box{
+  /* background-color: #ECBBB3; */
+  display:inline-block;
+  position:absolute;
+  width:500px;
+  height:300px;
+  margin:50px;
+  padding:20px;
+  left:600px;
+  border-radius: 30px;
+  top:100px;
+  text-align: center;
+  border:2px solid black ;
+  background-image: linear-gradient(to right, rgba(236, 187, 179, 0.5), rgba(245, 234, 206, 0.5));
+}
+.button{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid black;
+    padding: 10px 30px;
+    color:white;
+
+    text-decoration: none;
+    transition:0.6s ease;
+}
+
+.btn:hover{
+    background-color: #9121be;
+    color: black;
+    font-weight: 800;
+    background-position: left bottom;
+}
+
+.bottom-container {
+    bottom: -0.5px;
+    left: 702px;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+}
